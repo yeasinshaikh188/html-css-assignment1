@@ -39,121 +39,252 @@
   position: relative;
 }
 
-.banner-form{
-    height: 250px;
-    width: 670px;
-    background-color: #fff;
-    position: absolute;
-    top: 340px;
-    left: 340px;
+.banner-form {
+  height: 250px;
+  width: 670px;
+  background-color: #fff;
+  position: absolute;
+  top: 340px;
+  left: 340px;
 }
-.select{
-    background-color: #ECECEC;
-    height: 40px;
-    width: 120px;
+.select {
+  background-color: #ececec;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.form-img {
+  text-align: center;
+}
+.form-img img {
+  margin-top: 30px;
+}
+.form1 {
+  text-align: center;
+  padding: 20px;
+}
+.form2 {
+  text-align: center;
+}
+.form2 input {
+  background-color: #ececec;
+  height: 30px;
+  border: none;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  width: 370px;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+}
+.form2 button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+  height: 40px;
+  text-align: center;
+  width: 100px;
+  background-color: #00ebc7;
+  border-radius: 10px;
+}
+.mian-first-div {
+  width: 1330px;
+  height: 370px;
+  background-color: #fde24f;
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+}
+.mian-logo-div img {
+  width: 100%;
+}
+.Feature-section {
+  margin-top: 70px;
+  width: 1340px;
+}
+.Feature-titel {
+  margin-left: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.Feature-continer {
+  /* width: 1340px; */
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+}
+.Feature-first {
+  text-align: center;
+  width: 100%;
+}
+.Feature-first p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+.Feature-second {
+  text-align: center;
+  width: 100%;
+}
+.Feature-second p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+.Feature-thired {
+  text-align: center;
+  width: 100%;
+}
+.Feature-thired p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.5;
+}
+.Feature-button {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 17px;
+  text-decoration: underline;
+}
+.buy-or-sell {
+  width: 1380px;
+
+  background-color: #f8f8f8;
+  height: 500px;
+  margin: 60px auto;
+  border-top: 2px solid black;
+  display: flex;
+  /* justify-content: space-between; */
+}
+.buy {
+  width: 50%;
+  border-right: 2px solid black;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.buy1,
+.buy2,
+.buy3 {
+  width: 500px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.buy img {
+  width: 80px;
+  margin-right: 20px;
+}
+.buy1,
+.buy2,
+.buy3 p {
+  margin-right: 20px;
+}
+.buy2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sell {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.sell1,
+.sell2,
+.sell3 {
+  width: 500px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.sell img {
+  margin-right: 20px;
+  width: 80px;
+}
+.sell1,
+.sell2,
+.sell3 p {
+  margin-right: 20px;
+}
+.sell2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.sign-up-section {
+  width: 1340px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: #cfbaff;
+  text-align: center;
+  display: block;
+  align-items: center;
+}
+.sign-up-section h1{
+    padding: 40px;
+font-size: 70px;
+    /* margin-top: 140px; */
+}
+.sign-up-section button{
+    margin-top: 120px;
     font-size: 20px;
-    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
     border: none;
-    padding: 5px;
-    outline: none;
-    border-radius: 5px;
-    margin: 0 auto;
 }
-.form-img{
-    text-align: center;
-}
-.form-img img{
-    margin-top: 30px;
-}
-.form1{
-    text-align: center;
-    padding: 20px;
-}
-.form2{
-    text-align: center;
-}
-.form2 input{
-    background-color: #ECECEC;
-    height: 30px;
-    border: none;
-    padding: 5px;
-    outline: none;
-    border-radius: 5px;
-    width: 370px;
-    text-align: center;
-    color: black;
-    font-size: 12px;
-}
-.form2 button{
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 16px;
-   height: 40px;
-   text-align: center;
-   width: 100px;
-   background-color: #00EBC7;
-   border-radius: 10px;
-}
-.mian-first-div{
-    width: 1330px;
-    height: 370px;
-    background-color: #FDE24F;
+.footer{
+    width: 1270px;
+    height: 300px;
+    background-color: black;
     margin: 0 auto;
     text-align: center;
-    align-content: center;
-}
-.mian-logo-div img{
-    width: 100%;
-}
-.Feature-section{
-    margin-top: 70px;
-}
-.Feature-titel{
-    margin-left: 40px;
-    font-size: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-}
-.Feature-continer{
-    width: 1340px;
-    height: 500px;
-    margin: 0 auto;
     display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    margin: 0 auto;
 }
-.Feature-first{
-    text-align: center;
-    width: 100%;
-}
-.Feature-first p{
-    margin-top: 20px;
+.footer li{
+    list-style: none;
     margin-bottom: 20px;
-    opacity: 0.5;
-   
 }
-.Feature-second{
+.footer-1{
+    color: white;
+    margin-right: 20px;
+}
+.footer2{
+    width: 1270px;
+    height: 150px;
+    background-color: black;
+    margin: 0 auto;
     text-align: center;
-    width: 100%;
-}
-.Feature-second p{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    opacity: 0.5;
-}
-.Feature-thired{
-    text-align: center;
-    width: 100%;
-}
-.Feature-thired p{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    opacity: 0.5;
+    padding: 40px;
+    color: white;
+    font-weight: 20px;
+    font-size: 10px;
 }
 @media screen and (max-width: 567px) {
-    *{
-        padding: 3px;
-    }
+  * {
+    padding: 3px;
+    box-sizing: border-box;
+  }
   .nav-container {
     width: 100%;
     height: 50px;
@@ -172,10 +303,10 @@
     border-radius: 20px;
     margin: 0 10px;
   }
-  .nav1 img{
+  .nav1 img {
     width: 90px;
   }
-  .nav2{
+  .nav2 {
     display: none;
   }
   .banner {
@@ -185,49 +316,138 @@
     width: 100%;
     position: relative;
   }
-  .banner-form{
+  .banner-form {
     height: 200px;
     width: 100%;
     top: 300px;
     left: 0px;
-}
-.select{
+  }
+  .select {
     /* background-color: #ECECEC; */
     height: 40px;
     width: 100%;
     text-align: center;
-}
-.form-img img{
+  }
+  .form-img img {
     margin-top: 20px;
     width: 90%;
-}
-.form2 input{
+  }
+  .form2 input {
     border-radius: 5px;
     width: 90%;
     text-align: center;
     color: black;
     font-size: 12px;
-}
-.form2 button{
+  }
+  .form2 button {
     margin-top: 20px;
-}
-.mian-first-div{
+  }
+  .mian-first-div {
   display: none;
-}
-.Feature-section{
+  }
+  .Feature-section {
     margin-top: 220px;
-}
-.Feature-titel{
+    width: 100%;
+  }
+  .Feature-titel {
     margin-left: 20px;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 30px;
-}
-.Feature-continer{
-    width: 100%;
+  }
+  .Feature-continer {
     height: 800px;
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .buy-or-sell {
+    width: 100%;
+    height: 100%;
+    border-top: none;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .buy {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-right: none;
+  }
+  .sell {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
+    border-right: none;
+  }
+  .buy1,
+  .buy2,
+  .buy3 {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .sell1,
+  .sell2,
+  .sell3 {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .sell img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  .buy img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  .sell1,
+  .sell2,
+  .sell3 p {
+    margin-right: 5px;
+  }
+  .buy1,
+  .buy2,
+  .buy3 p {
+    margin-right: 5px;
+  }
+  .sell2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .buy2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sign-up-section {
+    width: 100%;
+    height: 300px;
+    background-color: #cfbaff;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .sign-up-section h1{
+    padding: 10px;
+font-size: 30px;
+    /* margin-top: 140px; */
 }
-
+.sign-up-section button{
+    margin-top: 60px;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    text-align: start;
+   grid-template-columns: 1fr;
+    padding: 10px;
+    margin: 0 auto;
+}
+.footer2{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
 }
