@@ -96,10 +96,60 @@
    background-color: #00EBC7;
    border-radius: 10px;
 }
-.opt{
-    
+.mian-first-div{
+    width: 1330px;
+    height: 370px;
+    background-color: #FDE24F;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
 }
-
+.mian-logo-div img{
+    width: 100%;
+}
+.Feature-section{
+    margin-top: 70px;
+}
+.Feature-titel{
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.Feature-continer{
+    width: 1340px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+.Feature-first{
+    text-align: center;
+    width: 100%;
+}
+.Feature-first p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+   
+}
+.Feature-second{
+    text-align: center;
+    width: 100%;
+}
+.Feature-second p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+.Feature-thired{
+    text-align: center;
+    width: 100%;
+}
+.Feature-thired p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
 @media screen and (max-width: 567px) {
     *{
         padding: 3px;
@@ -129,20 +179,20 @@
     display: none;
   }
   .banner {
-    height: 260px;
+    height: 400px;
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     position: relative;
   }
   .banner-form{
-    height: 100%;
+    height: 200px;
     width: 100%;
     top: 300px;
     left: 0px;
 }
 .select{
-    background-color: #ECECEC;
+    /* background-color: #ECECEC; */
     height: 40px;
     width: 100%;
     text-align: center;
@@ -161,7 +211,23 @@
 .form2 button{
     margin-top: 20px;
 }
-.opt{
-    margin-top: 40px;
+.mian-first-div{
+  display: none;
 }
+.Feature-section{
+    margin-top: 220px;
+}
+.Feature-titel{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.Feature-continer{
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 }
